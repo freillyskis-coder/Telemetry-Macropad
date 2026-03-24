@@ -1,9 +1,21 @@
 # Telemetry-Macropad
 This is a place where I store all of my files for my macropad that has an accelerometer, display, and lights that will show telemetry information for racing.
 
+### What It Does
+This macropad has a computer, display, accelerometer, a few lights, and 3 keys. The accelerometer is used to measure acceleration in different directions (duh). That information gets used to display which direction it is accelerating in a traction-circle style display, or in plain number format, on the screen. The lights also indicate what direction the board is accelerating, with one pointing in each cardinal direction for the device. The lights each have two functions, requiring a long or short press. They go like this:
+- Switch modes on the display (trac circle, current acceleration numbers, etc) (Short) / Set brightness (Long)
+- Recalibration (Short) / Switch Units (g’s vs m/s) (Long)
+- Freezes max acceleration (Short) / Reset acceleration (size of the traction circle) (Long)
+
+
 ### Challenges
 I haven't done that much design work myself, so this was full of new experiences for me. I have used onshape for 3d cad work before, so it was fun learning how to use fusion (they were pretty similar, at least for what I was doing). 
 I also enjoyed learning how to use the KiCAD software. I've used Rapidharness before for electrical work, but it was so cool and different designing a PCB. One of the biggest challenges was the coding, as I've only used Java for my compsci class, and figuring out how to use Github (it required a lot of youtube tutorials and headscratching). Overall, I persisted through and I gained a lot of valuable skills and had a good time!
+
+### Designs
+Schematic            |  PCB         |   Case
+:-------------------------:|:-------------------------:|:-------------------------:|
+<img src="Telemetry%20Hackpad/Images/KiCAD_Schematic.png" width="400">  | <img src="Telemetry%20Hackpad/Images/KiCAD_PCB.png" width="400">   | <img src="Telemetry%20Hackpad/Images/Complete_Side_View.png" width="400">  
 
 ### Bill Of Materials
 - [SSD1306 OLED]([url](https://www.alibaba.com/product-detail/0-96-128x64-I2C-IIC-Serial_1601221974195.html?spm=a2700.prosearch.normal_offer.d_title.713e67af2h8ats&selectedCarrierCode=SEMI_MANAGED_STANDARD%40%40STANDARD&priceId=9263331f4c5146ce9335b75a9e5a434e)) - display
@@ -17,7 +29,3 @@ I also enjoyed learning how to use the KiCAD software. I've used Rapidharness be
 - My PCB, printed
 - My 3D printed case
 
-### Designs
-Schematic            |  PCB         |   Case
-:-------------------------:|:-------------------------:|:-------------------------:|
-<img src="Images/KiCAD_Schematic.png" width="400">  | <img src="Images/KiCAD_PCB.png" width="400">   | <img src="Images/Complete_Side_View.png" width="400">  
