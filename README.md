@@ -6,7 +6,9 @@ This macropad has a computer, display, accelerometer, a few lights, and 3 keys. 
 - Switch modes on the display (trac circle, current acceleration numbers, etc) (Short) / Set brightness (Long)
 - Recalibration (Short) / Switch Units (g’s vs m/s) (Long)
 - Freezes max acceleration (Short) / Reset acceleration (size of the traction circle) (Long)
-
+  
+### Why I Built This
+I have seen traction circles be used in racing simulators to assist the driver. However, I had never seen one in a real car. I thought it would be really cool to try my hand at designing a device that could display information relevant to racing. In the future, I may add new features such as data collection, slip warnings, etc. 
 
 ### Challenges
 I haven't done that much design work myself, so this was full of new experiences for me. I have used onshape for 3d cad work before, so it was fun learning how to use fusion (they were pretty similar, at least for what I was doing). 
