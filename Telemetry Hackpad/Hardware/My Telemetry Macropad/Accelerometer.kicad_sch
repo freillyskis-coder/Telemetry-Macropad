@@ -135,7 +135,7 @@
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 3.81)
-					(name "VCC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -153,7 +153,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "GND"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -525,270 +525,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LED:SK6812MINI"
+		(symbol "SK6812MINI-E:SK6812MINI-E"
 			(pin_names
 				(offset 0.254)
 			)
@@ -796,7 +533,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 5.08 5.715 0)
+				(at -3.556 5.842 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -804,16 +541,18 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "SK6812MINI"
+			(property "Value" "SK6812MINI-E"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
 					)
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -823,7 +562,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -860,7 +599,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SK6812MINI_0_0"
+			(symbol "SK6812MINI-E_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -870,7 +609,18 @@
 					)
 				)
 			)
-			(symbol "SK6812MINI_0_1"
+			(symbol "SK6812MINI-E_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -955,19 +705,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+			)
+			(symbol "SK6812MINI-E_1_1"
+				(text "NOT SK6812MINI"
+					(at 8.636 6.604 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
-			)
-			(symbol "SK6812MINI_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -978,7 +725,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -996,7 +743,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1014,7 +761,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1032,7 +779,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2325,40 +2072,10 @@
 		(uuid "0863ce64-b847-490c-8382-c9fbbac77135")
 	)
 	(junction
-		(at 111.76 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24571d04-e485-426c-9061-05bd9fc36fd7")
-	)
-	(junction
-		(at 139.7 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37140e6a-ff1a-4c5f-9d2f-1430c7b8dfb7")
-	)
-	(junction
-		(at 48.26 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "391cc8c8-8314-4f17-9389-500a3b73e36e")
-	)
-	(junction
-		(at 139.7 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49959cec-b67c-4a65-b5a2-c4a287cc73be")
-	)
-	(junction
 		(at 140.97 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4be2c001-a9f5-4ae2-af69-44ad71e5fbde")
-	)
-	(junction
-		(at 147.32 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52fa3db8-5503-4cba-8d3e-bf37497fbb55")
 	)
 	(junction
 		(at 140.97 39.37)
@@ -2377,12 +2094,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90b697ff-c527-461b-9741-495c8792d88d")
-	)
-	(junction
-		(at 111.76 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8b57095-c45f-43c5-996f-b5b6003db5ad")
 	)
 	(junction
 		(at 157.48 39.37)
@@ -2442,6 +2153,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 93.98) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04863b85-863c-4feb-9efb-9d21934e1dfc")
+	)
+	(wire
+		(pts
 			(xy 44.45 115.57) (xy 55.88 115.57)
 		)
 		(stroke
@@ -2472,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 148.59) (xy 156.21 148.59)
+			(xy 137.16 148.59) (xy 156.21 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2492,16 +2213,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 156.21) (xy 139.7 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ddff874-aac6-46a4-914d-0773e6953d22")
-	)
-	(wire
-		(pts
 			(xy 39.37 43.18) (xy 40.64 43.18)
 		)
 		(stroke
@@ -2509,16 +2220,6 @@
 			(type default)
 		)
 		(uuid "34dd2385-dda2-4b6a-ab73-affd2a5e4ebe")
-	)
-	(wire
-		(pts
-			(xy 147.32 101.6) (xy 147.32 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39e42cbf-b482-4447-a2fb-cb95ff1eb31b")
 	)
 	(wire
 		(pts
@@ -2572,16 +2273,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 92.71) (xy 147.32 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "632e7aa5-9ed4-45ee-a3dd-607f3d625159")
-	)
-	(wire
-		(pts
 			(xy 181.61 48.26) (xy 182.88 48.26)
 		)
 		(stroke
@@ -2619,36 +2310,6 @@
 			(type default)
 		)
 		(uuid "723b68e6-dd33-442e-9647-52d13a98ce95")
-	)
-	(wire
-		(pts
-			(xy 139.7 135.89) (xy 139.7 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72471de7-c8ee-4184-8191-a3ca5d7f2c91")
-	)
-	(wire
-		(pts
-			(xy 111.76 44.45) (xy 111.76 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74eaef80-4f3b-4d57-a8f3-c4019b09358f")
-	)
-	(wire
-		(pts
-			(xy 137.16 148.59) (xy 139.7 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75ab27a8-7156-4e01-8ebf-1fd3476b85a7")
 	)
 	(wire
 		(pts
@@ -2692,16 +2353,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 52.07) (xy 111.76 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8364349b-1475-4cb5-a6be-e833aa9e2bb3")
-	)
-	(wire
-		(pts
 			(xy 190.5 39.37) (xy 190.5 40.64)
 		)
 		(stroke
@@ -2709,16 +2360,6 @@
 			(type default)
 		)
 		(uuid "88e00487-8cc1-47f5-a608-5a55502deb24")
-	)
-	(wire
-		(pts
-			(xy 147.32 91.44) (xy 172.72 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c385a81-c161-4647-979f-23717650d15d")
 	)
 	(wire
 		(pts
@@ -2752,16 +2393,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 144.78) (xy 139.7 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95645e5d-9e7e-4858-a193-ba185f04df34")
-	)
-	(wire
-		(pts
 			(xy 111.76 57.15) (xy 140.97 57.15)
 		)
 		(stroke
@@ -2769,16 +2400,6 @@
 			(type default)
 		)
 		(uuid "97cb8407-9efc-417f-a0ae-bf9cfce79ff8")
-	)
-	(wire
-		(pts
-			(xy 39.37 113.03) (xy 48.26 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ee5e466-f523-4e43-9aa3-b1835e4bd1ad")
 	)
 	(wire
 		(pts
@@ -2812,6 +2433,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 88.9) (xy 172.72 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9114d9e-4436-4edf-80e8-633703be5b49")
+	)
+	(wire
+		(pts
 			(xy 171.45 96.52) (xy 172.72 96.52)
 		)
 		(stroke
@@ -2842,7 +2473,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 144.78) (xy 156.21 144.78)
+			(xy 137.16 144.78) (xy 156.21 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2922,26 +2553,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 91.44) (xy 147.32 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e885b345-b184-4397-b15a-c1a651daab86")
-	)
-	(wire
-		(pts
-			(xy 67.31 105.41) (xy 48.26 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea0da9d4-de43-48db-819d-988715804062")
-	)
-	(wire
-		(pts
 			(xy 157.48 55.88) (xy 157.48 57.15)
 		)
 		(stroke
@@ -2952,13 +2563,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 93.98) (xy 172.72 93.98)
+			(xy 172.72 91.44) (xy 172.72 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3e42387-c989-410e-8120-8b7235ce491f")
+		(uuid "f61621bb-275c-4d17-9afb-2aa356a51795")
 	)
 	(wire
 		(pts
@@ -2972,7 +2583,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 113.03) (xy 55.88 113.03)
+			(xy 39.37 113.03) (xy 55.88 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3355,71 +2966,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 139.7 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f5aa0b2-9f57-4316-bfad-9cbde1adb68e")
-		(property "Reference" "#PWR01"
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 139.7 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 139.7 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "181158de-79ad-46e9-b95e-8d804834e734")
-		)
-		(instances
-			(project "Accelerometer"
-				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 39.37 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3479,71 +3025,6 @@
 			(project ""
 				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 134.62 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c54bf10-fbf8-4183-8336-074c4583e27c")
-		(property "Reference" "#PWR016"
-			(at 134.62 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 131.826 154.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 134.62 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58047969-8041-45d1-96d7-83c99de98824")
-		)
-		(instances
-			(project "Accelerometer"
-				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3616,35 +3097,54 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 111.76 48.26 0)
-		(mirror x)
+		(lib_id "SK6812MINI-E:SK6812MINI-E")
+		(at 157.48 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2ad3a805-ad00-48e9-8c40-3405da931102")
-		(property "Reference" "C3"
-			(at 107.95 46.9899 0)
+		(uuid "20f42c1a-9ecb-4cf2-acde-524d31174144")
+		(property "Reference" "D2"
+			(at 157.48 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "47uF"
-			(at 107.95 49.5299 0)
+		(property "Value" "SK6812MINI-E"
+			(at 157.48 36.3221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "SK6812MINI-E:SK6812MINI-E_fixed"
+			(at 158.75 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 112.7252 44.45 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 160.02 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 157.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,17 +3152,76 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 111.76 48.26 0)
+		(pin "3"
+			(uuid "4bf12e92-54c1-447c-971e-f513f6495a28")
+		)
+		(pin "1"
+			(uuid "87275cc8-85e6-47a6-955f-1ff27c8b8419")
+		)
+		(pin "4"
+			(uuid "09ad18fe-de55-49c5-a683-5f4776417a6b")
+		)
+		(pin "2"
+			(uuid "d0f35827-e780-4993-ad19-c4af284bb6fa")
+		)
+		(instances
+			(project ""
+				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812MINI-E:SK6812MINI-E")
+		(at 190.5 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a3c561b-c025-496d-8fd9-acf7c2d76a0d")
+		(property "Reference" "D4"
+			(at 190.754 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 190.754 36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "SK6812MINI-E:SK6812MINI-E_fixed"
+			(at 191.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 111.76 48.26 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 193.04 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 190.5 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,15 +3230,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "193e4c8c-a3a6-4fa3-a2a9-bdac06c68c65")
+			(uuid "04e22f1f-9e55-409f-bf39-3cf386814713")
+		)
+		(pin "4"
+			(uuid "2113085d-74ed-4a36-9b63-7bd9857bdede")
 		)
 		(pin "1"
-			(uuid "87c3cf39-8b06-41ce-beb4-8dd62a6cf0e8")
+			(uuid "52d2ad53-b2a1-45b5-bb33-8561535db83d")
+		)
+		(pin "3"
+			(uuid "6ac4a192-6037-4aa9-8803-787d44145d0c")
 		)
 		(instances
-			(project "Accelerometer"
+			(project ""
 				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
-					(reference "C3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3822,217 +3387,6 @@
 			(project ""
 				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 157.48 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f07ad69-e199-4686-87bc-f1da50ffbe23")
-		(property "Reference" "D2"
-			(at 156.972 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI-E"
-			(at 156.972 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "My_Project_Footprints:SK6812MINI-E_fixed (1)"
-			(at 158.75 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 160.02 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 157.48 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8231538f-427b-4386-9326-931fb08aa863")
-		)
-		(pin "4"
-			(uuid "720cb7a3-78f2-4722-8bcf-06012cb5edb7")
-		)
-		(pin "1"
-			(uuid "ef9ae5b2-0197-4370-9227-ca913bd4e797")
-		)
-		(pin "3"
-			(uuid "b8ae2a0c-fe31-4f1f-b00d-cf7f4e1cf2a2")
-		)
-		(instances
-			(project ""
-				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 139.7 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "327ce2ee-0cb6-437d-8f78-c51567406d7c")
-		(property "Reference" "R2"
-			(at 142.24 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 142.24 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 137.922 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 139.7 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9c06581e-2068-4261-b3cd-b8b796846392")
-		)
-		(pin "1"
-			(uuid "cb991d9e-36b1-4d9e-89c2-3faf45cbc279")
-		)
-		(instances
-			(project "Accelerometer"
-				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 67.31 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4077e68f-9a63-42ff-86d2-02f9d522e097")
-		(property "Reference" "#PWR013"
-			(at 67.31 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79614e60-b8de-4cc1-9c67-39293feb8fc3")
-		)
-		(instances
-			(project ""
-				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4193,76 +3547,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 139.7 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "629cc032-a6b4-44a5-b8c4-155612fa36b7")
-		(property "Reference" "R1"
-			(at 142.24 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 142.24 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 137.922 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 139.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ce064f9d-b1ab-408d-864d-2092d7143057")
-		)
-		(pin "1"
-			(uuid "594bf0d8-9980-46a2-926f-d36080e21d77")
-		)
-		(instances
-			(project "Accelerometer"
-				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 45.72 43.18 0)
 		(unit 1)
@@ -4392,76 +3676,6 @@
 			(project ""
 				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 147.32 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c1794fd-2f9d-4c98-84fb-5c3fba596fc0")
-		(property "Reference" "C1"
-			(at 151.13 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 151.13 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 146.3548 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 147.32 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fdae79ce-e5c7-48fe-8fa3-c2722923ccd1")
-		)
-		(pin "1"
-			(uuid "681e055d-a1a6-4d79-a2aa-bd4870706d96")
-		)
-		(instances
-			(project "Accelerometer"
-				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4600,81 +3814,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 190.5 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "877c266c-6637-41b8-8acb-a99399e7f001")
-		(property "Reference" "D4"
-			(at 190.754 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI-E"
-			(at 190.754 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "My_Project_Footprints:SK6812MINI-E_fixed (1)"
-			(at 191.77 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 193.04 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 190.5 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "fec28dd7-0540-4c65-8bd0-2c81e7585248")
-		)
-		(pin "2"
-			(uuid "ca6a871c-956f-450f-9ec8-1b1713244a5e")
-		)
-		(pin "1"
-			(uuid "2c835e6d-9de5-4983-b396-4545bb81e5bb")
-		)
-		(pin "4"
-			(uuid "ebe12244-9c91-4703-8bcf-507c0b07445a")
-		)
-		(instances
-			(project "Accelerometer"
-				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 111.76 57.15 0)
 		(unit 1)
@@ -4741,16 +3880,16 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 140.97 48.26 0)
+		(lib_id "SK6812MINI-E:SK6812MINI-E")
+		(at 173.99 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a71b9293-9b0c-45e3-9553-a80c82c03a88")
-		(property "Reference" "D1"
-			(at 141.224 34.29 0)
+		(uuid "8b55388c-9275-4195-83ca-a46473578b3c")
+		(property "Reference" "D3"
+			(at 173.99 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,15 +3897,17 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 141.224 36.83 0)
+			(at 173.99 36.3221 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" "My_Project_Footprints:SK6812MINI-E_fixed (1)"
-			(at 142.24 55.88 0)
+		(property "Footprint" "SK6812MINI-E:SK6812MINI-E_fixed"
+			(at 175.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4775,8 +3916,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 143.51 57.785 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 176.53 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,7 +3927,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 140.97 48.26 0)
+			(at 173.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,22 +3935,22 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "acb38be3-5688-4711-b010-d5cd8ca46926")
-		)
 		(pin "2"
-			(uuid "edca1f4e-1ada-4339-a0fc-34565a637252")
+			(uuid "1be5434a-c8e5-445f-803a-c917e9559e1f")
+		)
+		(pin "3"
+			(uuid "4efa78c7-8587-41b4-bf3e-b0e5aad6d456")
 		)
 		(pin "1"
-			(uuid "c0a0dbbd-00c0-410d-a67b-4e7bc8d8a792")
+			(uuid "85527914-144c-402d-a490-1927932542a6")
 		)
 		(pin "4"
-			(uuid "9256f015-533a-476b-8941-b562eada3fe3")
+			(uuid "f9468426-ca74-4208-ab01-5e54f33b5427")
 		)
 		(instances
 			(project ""
 				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4885,16 +4026,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 93.98 0)
+		(at 160.02 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b8c86a5a-d0e1-4c2c-98a3-10f72ded26cd")
 		(property "Reference" "#PWR010"
-			(at 158.75 100.33 0)
+			(at 160.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,7 +4043,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 99.06 0)
+			(at 162.814 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,7 +4051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 93.98 0)
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,7 +4060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 93.98 0)
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +4069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 93.98 0)
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,152 +4194,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 147.32 101.6 0)
+		(lib_id "SK6812MINI-E:SK6812MINI-E")
+		(at 140.97 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c56f52b7-bc3f-4a12-9d8b-249d2da47f60")
-		(property "Reference" "#PWR08"
-			(at 147.32 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "034d0777-df75-4fca-a1ce-ad7054ee7b2d")
-		)
-		(instances
-			(project ""
-				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 48.26 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d708fa48-b1b0-451c-baf7-7217bd2ea1a7")
-		(property "Reference" "C2"
-			(at 52.07 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 52.07 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 47.2948 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 48.26 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c550746d-f477-4cc9-8aed-6f912ac42df8")
-		)
-		(pin "1"
-			(uuid "ef0c3f13-f018-4823-86b6-db175ba2d0ac")
-		)
-		(instances
-			(project "Accelerometer"
-				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 173.99 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dfcb3d46-9966-45f1-80a6-f6c1efefce6b")
-		(property "Reference" "D3"
-			(at 173.99 34.29 0)
+		(uuid "c0304a4b-7686-4118-843c-697462c98585")
+		(property "Reference" "D1"
+			(at 141.224 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,15 +4211,17 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 173.99 36.83 0)
+			(at 140.716 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" "My_Project_Footprints:SK6812MINI-E_fixed (1)"
-			(at 175.26 55.88 0)
+		(property "Footprint" "SK6812MINI-E:SK6812MINI-E_fixed"
+			(at 142.24 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5224,8 +4230,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 176.53 57.785 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 143.51 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +4241,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 173.99 48.26 0)
+			(at 140.97 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,22 +4249,22 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "7b62c8a7-5b29-48c6-a806-2e7b00eadaa3")
-		)
-		(pin "2"
-			(uuid "b4a1146b-2365-47bb-b10b-dddb9869dcaa")
+		(pin "4"
+			(uuid "966d1374-79e1-49cd-a900-5b3440ef41db")
 		)
 		(pin "1"
-			(uuid "64daaf27-74a4-46ea-9387-9c97abf5ff6c")
+			(uuid "5ad3b847-3dd3-4cf4-af6b-ee234b45d147")
 		)
-		(pin "4"
-			(uuid "689b8e96-29cd-40fa-92ab-3b18117918e9")
+		(pin "3"
+			(uuid "9468aa21-20a2-492a-a005-dad98018ca53")
+		)
+		(pin "2"
+			(uuid "59803e9e-1d89-460f-bf01-9c0fc37179d5")
 		)
 		(instances
-			(project "Accelerometer"
+			(project ""
 				(path "/e9776e70-55e7-459b-8a85-ff0ebda02451"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5397,16 +4403,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 144.78 91.44 0)
+		(at 154.94 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fd10b395-0b2f-4387-ad6f-35d4b4429cd0")
 		(property "Reference" "#PWR09"
-			(at 144.78 95.25 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5415,7 +4420,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 144.78 86.36 0)
+			(at 151.638 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,7 +4428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 91.44 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +4437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 91.44 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +4446,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 144.78 91.44 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
