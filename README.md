@@ -30,6 +30,6 @@ Schematic            |  PCB         |   Case
 - My PCB, printed
 - My 3D printed case
 
-I have an accelerometer in my designs, but I am not requesting it as I know it is not a part of the kit.
+I have an accelerometer in my designs, but I am not requesting it as I know it is not a part of the kit. I will pay for this myself.
 - - [1 x MPU 6050](https://www.alibaba.com/product-detail/TZT-1Set-IIC-I2C-GY-521_1600855862949.html?spm=a2700.prosearch.normal_offer.d_title.444e67afTjlFTW&priceId=fc64e04c517543e99b5e70350475b235) - accelerometer, $1.45
 
