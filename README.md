@@ -15,9 +15,13 @@ I haven't done that much design work myself, so this was full of new experiences
 I also enjoyed learning how to use the KiCAD software. I've used Rapidharness before for electrical work, but it was so cool and different designing a PCB. One of the biggest challenges was the coding, as I've only used Java for my compsci class, and figuring out how to use Github (it required a lot of youtube tutorials and headscratching). Overall, I persisted through and I gained a lot of valuable skills and had a good time!
 
 ### Designs
-Schematic            |  PCB         |   Case
+Schematic            |  PCB         |   Case    |   
 :-------------------------:|:-------------------------:|:-------------------------:|
-<img src="Telemetry%20Hackpad/Images/Current%20Designs/KiCAD%20Schematic%20V3.png" width="400">  | <img src="Telemetry%20Hackpad/Images/Current%20Designs/KiCAD%20PCB%20Design%20V4.png" width="400">   | <img src="Telemetry%20Hackpad/Images/Current%20Designs/Assembly%20Side%20View%204.png" width="400">  
+<img src="Telemetry%20Hackpad/Images/Current%20Designs/KiCAD%20Schematic%20V3.png" width="400">  | <img src="Telemetry%20Hackpad/Images/Current%20Designs/KiCAD%20PCB%20Design%20V4.png" width="400">   | <img src="Telemetry%20Hackpad/Images/Current%20Designs/Case%20Top%20View%204.png" width="400">  
+
+# Overall Hackpad:
+
+<img src="Telemetry%20Hackpad/Images/Current%20Designs/Assembly%20Side%20View%204.png" width="400"> 
 
 ### Bill Of Materials
 - [1 x SSD1306 OLED](https://www.alibaba.com/product-detail/0-96-128x64-I2C-IIC-Serial_1601221974195.html?spm=a2700.prosearch.normal_offer.d_title.713e67af2h8ats&selectedCarrierCode=SEMI_MANAGED_STANDARD%40%40STANDARD&priceId=9263331f4c5146ce9335b75a9e5a434e) - display, $2.50
