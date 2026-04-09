@@ -24,7 +24,7 @@ Schematic            |  PCB         |   Case    |
 <img src="Telemetry%20Hackpad/Images/Current%20Designs/Assembly%20Side%20View%204.png" width="400"> 
 
 ### Bill Of Materials
-- [1 x SSD1306 OLED](https://www.alibaba.com/product-detail/0-96-128x64-I2C-IIC-Serial_1601221974195.html?spm=a2700.prosearch.normal_offer.d_title.713e67af2h8ats&selectedCarrierCode=SEMI_MANAGED_STANDARD%40%40STANDARD&priceId=9263331f4c5146ce9335b75a9e5a434e) - display, $2.50
+
 - [4 x SK6812MINI-E](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4960/14302512?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlgqid9MNTrAWhJKMXZF-C39b&gclid=CjwKCAiAzZ_NBhAEEiwAMtqKyy2T8yJqQVE5hG_iRolQtgHnV_oXdoksU0azACau9GJ1NhhwS3yk6hoCPRcQAvD_BwE) - lights, $2.95
 - [1 x XIAO RP2040 DIP](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html) - computer, $3.99
 - [3 x Cherry MX Switches](https://mechanicalkeyboards.com/products/cherry-mx2a-silent-red-45g-linear?variant=48014625177900) - switches $0.40
@@ -34,6 +34,7 @@ Schematic            |  PCB         |   Case    |
 - My PCB, printed
 - My 3D printed case
 
-I have an accelerometer in my designs, but I am not requesting it as I know it is not a part of the kit. I will pay for this myself.
-- - [1 x MPU 6050](https://www.alibaba.com/product-detail/TZT-1Set-IIC-I2C-GY-521_1600855862949.html?spm=a2700.prosearch.normal_offer.d_title.444e67afTjlFTW&priceId=fc64e04c517543e99b5e70350475b235) - accelerometer, $1.45
+I have an accelerometer and 0.96" display in my designs, but I am not requesting them as I know it they not a part of the kit. I will pay for this myself.
+- [1 x MPU 6050](https://www.alibaba.com/product-detail/TZT-1Set-IIC-I2C-GY-521_1600855862949.html?spm=a2700.prosearch.normal_offer.d_title.444e67afTjlFTW&priceId=fc64e04c517543e99b5e70350475b235) - accelerometer, $1.45
+- [1 x SSD1306 OLED](https://www.alibaba.com/product-detail/0-96-128x64-I2C-IIC-Serial_1601221974195.html?spm=a2700.prosearch.normal_offer.d_title.713e67af2h8ats&selectedCarrierCode=SEMI_MANAGED_STANDARD%40%40STANDARD&priceId=9263331f4c5146ce9335b75a9e5a434e) - display, $2.50
 
